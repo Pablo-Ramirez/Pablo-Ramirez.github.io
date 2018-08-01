@@ -36,7 +36,14 @@ div.content {
     padding: 1px 16px;
     height: 1000px;
 }
-
+footer{
+  margin-left: 25%;
+  padding: 1px 16px;
+  background: #000;
+}
+img{
+  width: 150px;
+}
 @media screen and (max-width: 900px) {
     ul.sidenav {
         width: 100%;
@@ -54,5 +61,8 @@ div.content {
     ul.sidenav li a {
         text-align: center;
         float: none;
+    }
+    img{
+      width: 50px;
     }
 }
