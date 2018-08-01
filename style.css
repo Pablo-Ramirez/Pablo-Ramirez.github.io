@@ -22,7 +22,7 @@ ul.sidenav li a {
 }
 
 ul.sidenav li a.active {
-    background-color: rgba(0,0,255);
+    background-color: tomato;
     color: white;
 }
 
