@@ -4,34 +4,35 @@ body {
 }
 
 ul.sidenav {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 25%;
-    background-color: rgba(0,0,0,.8);
-    position: fixed;
-    height: 100%;
-    overflow: auto;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #000;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
 }
 
 ul.sidenav li a {
-    display: block;
-    color: #fff;
-    padding: 8px 16px;
-    text-decoration: none;
-    border-bottom: 1px solid white;
-    font-size: 25px;
+  display: block;
+  color: #fff;
+  padding: 18px 16px;
+  text-decoration: none;
+  text-align: center;
+  border-bottom: 1px solid white;
+  font-size: 25px;
 }
 
 ul.sidenav li a:hover {
-    background-color: tomato;
-    color: white;
+  background-color: tomato;
+  color: white;
 }
 
 div.content {
-    margin-left: 25%;
-    padding: 1px 16px;
-    height: 1000px;
+  margin-left: 25%;
+  padding: 1px 16px;
+  height: 1000px;
 }
 .home h1{
   text-align: center;
@@ -45,24 +46,26 @@ footer{
   width: 150px;
 }
 @media screen and (max-width: 900px) {
-    ul.sidenav {
-        width: 100%;
-        height: auto;
-        position: relative;
+  ul.sidenav {
+    width: 100%;
+    height: auto;
+    position: relative;
     }
-    ul.sidenav li a {
-        float: left;
-        padding: 15px;
+  ul.sidenav li a {
+    float: left;
+    padding: 15px;
     }
-    div.content {margin-left: 0;}
+  div.content {
+    margin-left: 0;
+  }
 }
 
 @media screen and (max-width: 400px) {
-    ul.sidenav li a {
-        text-align: center;
-        float: none;
+  ul.sidenav li a {
+    text-align: center;
+    float: none;
     }
-    img{
-      width: 50px;
+  img{
+    width: 50px;
     }
 }
