@@ -1,9 +1,6 @@
 $(document).ready(function(){
   $('#navbar').load('header.html');
 });
-$(document).ready(function(){
-  $('#footer').load('footer.html')
-});
  window.onscroll = function() {
    myFunction()
  };

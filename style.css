@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  background: rgba(128,128,128,.4);
 }
 
 ul.sidenav {
@@ -27,23 +28,101 @@ ul.sidenav li a {
 ul.sidenav li a:hover {
   background-color: tomato;
   color: white;
+  transition: .5s;
 }
 
 div.content {
   margin-left: 25%;
-  padding: 1px 16px;
+  padding: 1px 0px;
   height: 1000px;
 }
 .home h1{
   text-align: center;
+  font-size: 70px;
+  height: 100px;;
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+}
+@keyframes pulse {
+  0%{
+    font-size: 70px;
+  }
+  25%{
+    font-size: 90px;
+  }
+  50%{
+    font-size: 70px;
+  }
+  75%{
+    font-size: 90px;
+  }
+  100%{
+    font-size: 70px;
+  }
+}
+.home-page-image{
+  width: 100%;
+
+}
+.box{
+  width: 300px;
+  height: 350px;
+  background: rgba(0,0,0,.5);
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 350px;
+  float: left;
+  margin: 17px;
+}
+.contact_me:hover{
+  background:url(images/home_contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  transition: 1s;
+}
+.junior_web_developer:hover{
+  background:url(images/junior.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  transition: 1s;
+}
+.about_me:hover{
+  background:url(images/about_me.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  transition: 1s;
+}
+.home a{
+  color: white;
+  font-size: 20;
 }
 footer{
-  margin-left: 25%;
-  padding: 1px 16px;
-  background: #000;
+
 }
 .footer-icons{
-  width: 150px;
+  width: 50px;
+  padding: 15.42px;
+  border-radius: 100%;
+  box-sizing: 1px 1px 1px 1px white;
+  opacity: .5;
+}
+.footer-icons:hover{
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  transform: scale(1.5);
+}
+.contact_logos h2{
+  text-align: center;
+  font-size: 25px;
+  border-bottom: 1px solid white;
 }
 @media screen and (max-width: 900px) {
   ul.sidenav {
@@ -64,8 +143,11 @@ footer{
   ul.sidenav li a {
     text-align: center;
     float: none;
-    }
-  img{
-    width: 50px;
-    }
+  }
+  .nav_icons{
+    display: none;
+  }
+
+
+
 }
