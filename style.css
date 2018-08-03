@@ -131,7 +131,7 @@ footer{
   border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1023px) {
   ul.sidenav {
     width: 100%;
     height: auto;
@@ -140,13 +140,20 @@ footer{
   ul.sidenav li a {
     float: left;
     padding: 15px;
+    border-right: 1px solid white;
     }
   div.content {
     margin-left: 0;
   }
+  .nav_icons{
+    display: none;
+  }
+  footer{
+    display: none;
+  }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 768px) {
   ul.sidenav li a {
     text-align: center;
     float: none;
