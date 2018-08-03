@@ -74,7 +74,7 @@ div.content {
   vertical-align: center;
   line-height: 350px;
   float: left;
-  margin: 17px;
+  margin: 1.5%;
 }
 .contact_me:hover{
   background:url(images/home_contact.jpg);
@@ -151,6 +151,61 @@ footer{
   footer{
     display: none;
   }
+  .home h1{
+    text-align: center;
+    font-size: 60px;
+    height: 120px;;
+    animation-name: pulse-tablet;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  @keyframes pulse-tablet {
+    0%{
+      font-size: 60px;
+    }
+    25%{
+      font-size: 70px;
+    }
+    50%{
+      font-size: 60px;
+    }
+    75%{
+      font-size: 70px;
+    }
+    100%{
+      font-size: 60px;
+    }
+  }
+  .box{
+    float:none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+  .contact_me{
+    background:url(images/home_contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    transition: 1s;
+  }
+  .junior_web_developer{
+    background:url(images/junior.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    transition: 1s;
+  }
+  .about_me{
+    background:url(images/about_me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    transition: 1s;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -161,7 +216,37 @@ footer{
   .nav_icons{
     display: none;
   }
-
+  .home h1{
+    text-align: center;
+    font-size: 50px;
+    height: 100px;;
+    animation-name: pulse-phone;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+  @keyframes pulse-phone {
+    0%{
+      font-size: 50px;
+    }
+    25%{
+      font-size: 60px;
+    }
+    50%{
+      font-size: 50px;
+    }
+    75%{
+      font-size: 60px;
+    }
+    100%{
+      font-size: 50px;
+    }
+  }
+  .box{
+    float:none;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 20px;
+  }
 
 
 }
