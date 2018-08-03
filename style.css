@@ -104,8 +104,14 @@ div.content {
   color: white;
   font-size: 20;
 }
-footer{
+.about_me_page p{
+  font-size: 30px;
+  padding: 1px 16px;
 
+}
+
+footer{
+  margin-top: 50px;
 }
 .footer-icons{
   width: 50px;
@@ -121,7 +127,8 @@ footer{
 }
 .contact_logos h2{
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+  border-top: 1px solid white;
   border-bottom: 1px solid white;
 }
 @media screen and (max-width: 900px) {
