@@ -76,6 +76,16 @@ div.content {
   float: left;
   margin: 1.5%;
 }
+.box_work{
+  width: 400px;
+  height: 350px;
+  background: rgba(0,0,0,.5);
+  border-radius: 10px;
+  text-align: center;
+  line-height: 430px;
+  float: left;
+  margin: 5.1%;
+}
 .contact_me:hover{
   background:url(images/home_contact.jpg);
   background-repeat: no-repeat;
@@ -100,16 +110,10 @@ div.content {
   color: white;
   transition: 1s;
 }
-.home a{
+.home a, .development_work a, .languages_spoken .knowledge{
   color: white;
   font-size: 20;
 }
-.about_me_page p{
-  font-size: 30px;
-  padding: 1px 16px;
-
-}
-
 footer{
   margin-top: 50px;
 }
@@ -130,6 +134,56 @@ footer{
   font-size: 30px;
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+}
+.about_me_page p{
+  font-size: 30px;
+  padding: 1px 16px;
+}
+.languages_spoken{
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+.html:hover{
+  background:url(images/html_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  transition: 1s;
+}
+.css:hover{
+  background:url(images/css.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  transition: 1s;
+}
+.javascript:hover{
+  background:url(images/javascript.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  transition: 1s;
+}
+.development_work{
+  text-align: center;
+  border-bottom: 5px solid black;
+}
+.school_website{
+  background: url(images/website.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 35px;
+  color: black;
+}
+.ffa_website{
+  background: url(images/ffa.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  font-size: 35px;
+  color: black;
 }
 @media screen and (max-width: 1023px) {
   ul.sidenav {
@@ -182,6 +236,7 @@ footer{
     margin-left: 0;
     margin-top: 20px;
   }
+
   .contact_me{
     background:url(images/home_contact.jpg);
     background-repeat: no-repeat;
