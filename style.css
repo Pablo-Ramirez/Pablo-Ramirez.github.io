@@ -176,7 +176,7 @@ footer{
   background-repeat: no-repeat;
   background-size: contain;
   font-size: 35px;
-  color: black;
+  color: #000;
 }
 .ffa_website{
   background: url(images/ffa.png);
