@@ -208,7 +208,7 @@ footer{
   .home h1{
     text-align: center;
     font-size: 60px;
-    height: 120px;;
+    height: 120px;
     animation-name: pulse-tablet;
     animation-duration: 3s;
     animation-iteration-count: 1;
@@ -236,7 +236,12 @@ footer{
     margin-left: 0;
     margin-top: 20px;
   }
-
+  .box_work{
+    width: 100%;
+    line-height: 630px;
+    float: none;
+    margin-left: 0;
+  }
   .contact_me{
     background:url(images/home_contact.jpg);
     background-repeat: no-repeat;
@@ -261,6 +266,12 @@ footer{
     color: white;
     transition: 1s;
   }
+  .languages_spoken{
+    border: none;
+  }
+  .development_work{
+    border: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -273,7 +284,7 @@ footer{
   }
   .home h1{
     text-align: center;
-    font-size: 50px;
+    font-size: 45px;
     height: 100px;;
     animation-name: pulse-phone;
     animation-duration: 3s;
@@ -281,19 +292,19 @@ footer{
   }
   @keyframes pulse-phone {
     0%{
-      font-size: 50px;
+      font-size: 45px;
     }
     25%{
-      font-size: 60px;
+      font-size: 50px;
     }
     50%{
-      font-size: 50px;
+      font-size: 45px;
     }
     75%{
-      font-size: 60px;
+      font-size: 50px;
     }
     100%{
-      font-size: 50px;
+      font-size: 45px;
     }
   }
   .box{
@@ -302,6 +313,15 @@ footer{
     margin-left: 0;
     margin-top: 20px;
   }
-
-
+  .box_work{
+    width: 100%;
+    float: none;
+    margin-left: 0;
+  }
+  .languages_spoken{
+    border: none;
+  }
+  .development_work{
+    border: none;
+  }
 }
