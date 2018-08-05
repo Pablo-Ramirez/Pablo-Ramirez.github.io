@@ -1,0 +1,175 @@
+body {
+  background-color: #1fa4b6;
+}
+
+.red_background{
+  background-color: #e05b49;
+  width: 750px;
+  height: 750px;
+  border-radius: 100%;
+  margin: 100px;
+}
+.top_cake_piece{
+  width: 0;
+  height: 0;
+  border: 0 solid transparent;
+  border-right-width: 0px;
+  border-left-width: 280px;
+  border-bottom: 250px solid #5b2b0b;
+  position: absolute;
+  top: 230px;
+  left: 190px;
+}
+.brown_circle_piece_for_cake{
+  width:300px;
+  height:300px;
+  border:1px solid transparent;
+  background: #5b2b0b;
+  border-radius: 0 3600px 0 0;
+  position: absolute;
+  left: 470px;
+  top: 230px;
+}
+.bottom_right_cirlce_to_fill_in_the_gap_of_missing_cake{
+  width:100px;
+  height:100px;
+  border:1px solid transparent;
+  background: #5d2d0d;
+  border-radius: 0 0 90px 0;
+  position: absolute;
+  left: 670px;
+  top: 523px;
+}
+.cherry{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background: #d15322;
+  position: relative;
+  left: 350px;
+  top: 200px;
+}
+.bright_part_on_the_top_left_of_cherry{
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  border-left: 10px solid #efb5a3;
+  border-bottom: 10px solid #d15322;
+  border-top: 15px solid #d15322;
+  transform: rotate(45deg);
+  z-index: 10;
+  position: relative;
+  top: 5px;
+  left: 10px;
+}
+.white_circle_top{
+  width: 10.5px;
+  height: 10.5px;
+  border-radius: 100%;
+  background-color: #efb5a3;
+  position: relative;
+  left:-4px;
+  top:-3.5px;
+}
+.white_circle_bottom{
+  width: 10.5px;
+  height: 10.5px;
+  border-radius: 100%;
+  background-color: #efb5a3;
+  position: relative;
+  top: 30px;
+  left: -2px;
+
+}
+.dripping_chocolate_1{
+  width: 20px;
+  height: 65px;
+  border-radius: 0px 0px 100px 100px;
+  background-color: #5b2b0b;
+  position: absolute;
+  left: 100px;
+  z-index: 3;
+}
+.dripping_chocolate_2{
+  width: 10px;
+  height: 35px;
+  border-radius: 0px 0px 100px 100px;
+  background-color: #5b2b0b;
+  position: absolute;
+  left: 123px;
+  z-index: 3;
+}
+.dripping_chocolate_3{
+  width: 10px;
+  height: 37px;
+  border-radius: 0px 0px 100px 100px;
+  background-color: #5b2b0b;
+  position: absolute;
+  left: 279px;
+  z-index: 3;
+}
+.dripping_chocolate_4{
+  width: 30px;
+  height: 90px;
+  border-radius: 0px 0px 100px 100px;
+  background-color: #5b2b0b;
+  position: absolute;
+  left: 250px;
+  z-index: 3;
+}
+.white_filling{
+  width: 530px;
+  height: 100px;
+  border-radius: 00px 50px 50px 0px ;
+  background-color: white;
+  position: relative;
+  left: 100px;
+  top: 300px;
+}
+.banana_filling_1{
+  width: 500px;
+  height: 30px;
+  border-radius: 00px 50px 50px 0px ;
+  background-color: #efc84a;
+  position: relative;
+  top: 15px;
+}
+.banana_filling_2{
+  width: 500px;
+  height: 30px;
+  border-radius: 00px 50px 50px 0px ;
+  background-color: #efc84a;
+  position: relative;
+  top: 30px;
+}
+.top_of_cake{
+  width: 500px;
+  height: 25px;
+  border-radius: 50px 0px 0px 50px;
+  background-color: #5b2b0b;
+  position: relative;
+  top: 175px;
+  left: 80px;
+}
+.bottom_of_cake{
+  width: 500px;
+  height: 25px;
+  border-radius: 50px 0px 0px 50px;
+  background-color: #5b2b0b;
+  position: relative;
+  top: 275px;
+  left: 80px;
+
+}
+
+.shadow_from_cherry{
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  background-color: #000;
+  position: absolute;
+  left: 480px;
+  top: 309px;
+  opacity: .25;
+
+}
