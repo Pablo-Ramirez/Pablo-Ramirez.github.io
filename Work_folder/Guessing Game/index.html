@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js"></script>
+</head>
+<body onload="init()">
+  <div id="container">
+    <div class="panel">
+      <h2>I have a random number <br> between 1 -100</h2>
+      <h3>Dare to guess?</h3><hr>
+      <button id="newGame" onclick="location.href=location.href">New Game</button>
+    </div>
+    <div class="panel">
+      <h3 id="highLow">Enter your guess below & press enter</h3><hr>
+      <input type="number" id="inputBox" onchange="compareGuess()">
+      <p id="wordChange"></p>
+    </div>
+    <div class="panel">
+      <p>Your previous guess:</p>
+      <p id="guessList">0</p>
+    </div>
+  </div>
+</body>
+</html>
