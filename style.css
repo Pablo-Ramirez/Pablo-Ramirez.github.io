@@ -86,6 +86,16 @@ div.content {
   float: left;
   margin: 5.1%;
 }
+.box_content{
+  width: 100%;
+  height: 450px;
+  border-radius: 10px;
+  text-align: center;
+  line-height: 500px;
+  background-position: center;
+  background-size: cover;
+
+}
 .contact_me:hover{
   background:url(images/home_contact.jpg);
   background-repeat: no-repeat;
@@ -184,6 +194,28 @@ footer{
   background-size: contain;
   font-size: 35px;
   color: black;
+}
+.work_page{
+  text-align: center;
+  font-size: 50px;
+  margin: 20px;
+}
+.work_page a{
+  text-decoration: none;
+  color: white;
+}
+.cake{
+  background-image: url(images/cake.png);
+}
+.hearts{
+  background-image: url(images/Hearts.jpg);
+  margin-top: 30px;
+
+}
+.guessing_game{
+  background-image: url(images/number_game.jpg);
+  margin-top: 30px;
+
 }
 @media screen and (max-width: 1023px) {
   ul.sidenav {
@@ -323,5 +355,8 @@ footer{
   }
   .development_work{
     border: none;
+  }
+  .work_page h1{
+    font-size: 20px;
   }
 }
