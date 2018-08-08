@@ -1,7 +1,7 @@
 var heart;
 
 function setup() {
-	createCanvas(windowWidth, windowHeight);
+	createCanvas(900, windowHeight);
 	heart = new LeftHeart();
 }
 

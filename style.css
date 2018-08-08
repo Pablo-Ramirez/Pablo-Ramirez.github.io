@@ -192,7 +192,7 @@ footer{
   background: url(images/ffa.png);
   background-repeat: no-repeat;
   background-size: contain;
-  font-size: 35px;
+  font-size: 30px;
   color: black;
 }
 .work_page{
@@ -304,6 +304,9 @@ footer{
   .development_work{
     border: none;
   }
+  .guessing_game{
+    font-size: 60px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -358,5 +361,8 @@ footer{
   }
   .work_page h1{
     font-size: 20px;
+  }
+  .guessing_game{
+    font-size: 40px;
   }
 }
