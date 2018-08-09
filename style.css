@@ -128,7 +128,7 @@ footer{
   margin-top: 50px;
 }
 .footer-icons{
-  width: 50px;
+  width: 45px;
   padding: 15.42px;
   border-radius: 100%;
   box-sizing: 1px 1px 1px 1px white;
@@ -215,7 +215,36 @@ footer{
 .guessing_game{
   background-image: url(images/number_game.jpg);
   margin-top: 30px;
-
+}
+/* .phone_num{
+  background-image: url(images/phone.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 200px;
+  color: black;
+  font-size: 30px;
+}
+.phone_num a, .email a{
+  text-decoration: none;
+  color: black;
+}
+.email{
+  background-image: url(images/google.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 30px;
+} */
+.under_maintence{
+  width: 90px;
+  position: absolute;
+  left: 10px;
 }
 @media screen and (max-width: 1023px) {
   ul.sidenav {
@@ -307,12 +336,16 @@ footer{
   .guessing_game{
     font-size: 60px;
   }
+  .under_maintence{
+    display: none;
+  }
 }
 
 @media screen and (max-width: 768px) {
   ul.sidenav li a {
     text-align: center;
     float: none;
+    border-right: none;
   }
   .nav_icons{
     display: none;
