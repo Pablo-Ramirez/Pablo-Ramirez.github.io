@@ -224,16 +224,16 @@ footer{
 .hearts{
   background-image: url(images/Hearts.jpg);
   margin-top: 30px;
-
 }
 .guessing_game{
   background-image: url(images/number_game.jpg);
   margin-top: 30px;
 }
-.under_maintence{
-  width: 90px;
-  position: absolute;
-  left: 10px;
+.iphone{
+  background-image: url(images/iphone.jpg);
+  margin-top: 30px;
+  background-position: top;
+  color: black;
 }
 .contact{
   display: none;
@@ -328,9 +328,6 @@ footer{
   }
   .guessing_game{
     font-size: 60px;
-  }
-  .under_maintence{
-    display: none;
   }
   .contact{
     display: block;
