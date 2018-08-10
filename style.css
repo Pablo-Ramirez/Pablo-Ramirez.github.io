@@ -66,6 +66,17 @@ div.content {
 
 }
 .box{
+  width: 48%;
+  height: 350px;
+  background: rgba(0,0,0,.5);
+  border-radius: 10px;
+  text-align: center;
+  vertical-align: center;
+  line-height: 350px;
+  float: left;
+  margin: 1%;
+}
+.box_top_work{
   width: 300px;
   height: 350px;
   background: rgba(0,0,0,.5);
@@ -95,6 +106,9 @@ div.content {
   background-position: center;
   background-size: cover;
 
+}
+.contact_me{
+  display: none;
 }
 .contact_me:hover{
   background:url(images/home_contact.jpg);
@@ -128,7 +142,7 @@ footer{
   margin-top: 50px;
 }
 .footer-icons{
-  width: 45px;
+  width: 60px;
   padding: 15.42px;
   border-radius: 100%;
   box-sizing: 1px 1px 1px 1px white;
@@ -216,35 +230,13 @@ footer{
   background-image: url(images/number_game.jpg);
   margin-top: 30px;
 }
-/* .phone_num{
-  background-image: url(images/phone.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 200px;
-  width: 200px;
-  text-align: center;
-  line-height: 200px;
-  color: black;
-  font-size: 30px;
-}
-.phone_num a, .email a{
-  text-decoration: none;
-  color: black;
-}
-.email{
-  background-image: url(images/google.png);
-  background-repeat: no-repeat;
-  background-size: contain;
-  height: 200px;
-  width: 200px;
-  text-align: center;
-  line-height: 200px;
-  font-size: 30px;
-} */
 .under_maintence{
   width: 90px;
   position: absolute;
   left: 10px;
+}
+.contact{
+  display: none;
 }
 @media screen and (max-width: 1023px) {
   ul.sidenav {
@@ -296,6 +288,7 @@ footer{
     width: 100%;
     margin-left: 0;
     margin-top: 20px;
+    display: block;
   }
   .box_work{
     width: 100%;
@@ -339,6 +332,13 @@ footer{
   .under_maintence{
     display: none;
   }
+  .contact{
+    display: block;
+  }
+  .footer-icons{
+    width: 100px;
+    opacity: 1;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -380,6 +380,7 @@ footer{
     width: 100%;
     margin-left: 0;
     margin-top: 20px;
+    display: block;
   }
   .box_work{
     width: 100%;
@@ -397,5 +398,9 @@ footer{
   }
   .guessing_game{
     font-size: 40px;
+  }
+  .footer-icons{
+    width: 100px;
+    opacity: 1;
   }
 }
