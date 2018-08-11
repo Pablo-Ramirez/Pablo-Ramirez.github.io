@@ -1,0 +1,208 @@
+body{
+  background: #426c6e;
+  width: 1920px;
+  height: 1080px;
+}
+.sun_object_in_the_sky{
+  background: #81938b;
+  width: 320px;
+  height: 320px;
+  border-radius: 100%;
+  margin-left:193px;
+  margin-top:100px;
+}
+.building_to_the_farthest_left{
+  background:#305d60;
+  width: 44.5px;
+  height: 293.5px;
+  margin-left:-8px;
+  margin-top:731px;
+  float:left;
+
+}
+.building_second_to_the_left{
+  background:#305d60;
+  width:149px ;
+  height: 553px;
+  margin-top:471px;
+  float:left;
+
+}
+.building_third_to_the_left{
+  background:#305d60;
+  width: 112px;
+  height: 389px;
+  margin-top:635px;
+  float:left;
+
+}
+.building_forth_to_the_left{
+  background:#305d60;
+  width: 97px;
+  height: 202px;
+  margin-top:822px;
+  float:left;
+
+}
+.building_fifth_to_the_left{
+  background:#305d60;
+  width: 207px;
+  height: 306px;
+  margin-top:718px;
+  float:left;
+
+}
+.building_sixth_to_the_left{
+  background:#305d60;
+  width: 179px;
+  height: 639px;
+  margin-top:385px;
+  float:left;
+}
+.building_sixth_to_the_right{
+  background:#305d60;
+  width: 92px;
+  height:97px;
+  margin-top:927px;
+  float:left;
+
+}
+.building_fifth_to_the_right{
+  background:#305d60;
+  width: 173px;
+  height: 358px;
+  margin-top:666px;
+  float:left;
+
+}
+.building_forth_to_the_right{
+  background:#305d60;
+  width: 94px;
+  height: 87px;
+  margin-top:937px;
+  float:left;
+
+
+}
+.building_third_to_the_right{
+  background:#305d60;
+  width: 179px;
+  height: 639px;
+  margin-top:385px;
+  float:left;
+}
+.building_second_to_the_right{
+  background:#305d60;
+  background:#305d60;
+  width: 208px;
+  height: 306px;
+  margin-top:718px;
+  float:left;
+
+}
+.building_to_the_farthest_right{
+  background:#305d60;
+  width: 97px;
+  height: 202px;
+  margin-top:822px;
+  float:left;
+}
+.batman{
+
+}
+.left_ear{
+  width: 0;
+  height: 0;
+  border-bottom: solid 150px rgb(13,37,47);
+  border-right: solid 80px rgb(13,37,47);
+  border-left: solid 80px transparent;
+  border-top: solid 150px transparent;
+  position:absolute;
+  margin-left:1470px
+
+}
+.right_ear{
+  width: 0;
+  height: 0;
+  border-bottom: solid 90px rgb(13,37,47);
+  border-right: solid 60px rgb(13,37,47);
+  border-left: solid 60px transparent;
+  border-top: solid 90px transparent;
+  position:absolute;
+  margin-left:1817px;
+  margin-top:-87px;
+
+}
+.eye_on_batmans_face{
+  width: 0;
+  height: 0;
+  transform: rotate(140deg);
+  border-style: solid;
+  border-width: 90px 0 90px 190px;
+  border-color: #ffffff transparent transparent transparent;
+  position:absolute;
+  right:792px;
+  top:600px;
+}
+.nose_of_batman{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 40px 0 40px 30px;
+  border-color: transparent transparent transparent #426c6e;
+  position:absolute;
+  margin-left:1470px;
+  margin-top:300px
+}
+.face_of_batman{
+  width: 200px;
+  height: 300px;
+  background: #0d242f;
+  position:absolute;
+  margin-left:1470px;
+  margin-top:300px;
+}
+.chin_on_batmans_face{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 0 0 100px 90px;
+  border-color: transparent transparent #0d242f transparent;
+  position:absolute;
+  margin-left:1405px;
+  margin-top:500px
+
+}
+.neck_on_batman{
+  width: 314px;
+  height: 932px;
+  background:#0d252f;
+  float:left;
+  margin-top:93px;
+  margin-right:-17.5px
+}
+.batmans_shoulder{
+  width: 0;
+  height: 0;
+  border-bottom: solid 120px rgb(13,37,47);
+  border-right: solid 120px rgb(13,37,47);
+  border-left: solid 120px transparent;
+  border-top: solid 120px transparent;
+  margin-top:-210px;
+  margin-left:1291px;
+  position:absolute;
+  margin-top:786px;
+  margin-left:1388px;
+}
+.tiny_triangle_on_batmans_neck{
+  width: 0;
+  height: 0;
+  border-bottom: solid 148px rgb(13,37,47);
+  border-right: solid 20px rgb(13,37,47);
+  border-left: solid px transparent;
+  border-top: solid 148px transparent;
+  float:left;
+  position:absolute;
+  margin-left:1606px;
+  margin-top:660px
+}
