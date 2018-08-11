@@ -1,0 +1,89 @@
+:root{
+  --main-bg-color: #25e1fe;
+  --clouds: #fff;
+  --sun-inner-color: #ffeea0;
+  --sun-shade-color: #f0de96;
+  --sun-rays-color: #ffeea0;
+  --water-marks: #20c6e0;
+  --grass: #019675;
+  --water-mark-height: 30px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background: var(--main-bg-color);
+}
+.ground{
+  background: var(--grass);
+  width: 79%;
+  height: 10px;
+  border-radius: 30px;
+  margin-left: 11%;
+}
+.water_mark1{
+  background: var(--water-marks);
+  width: 80%;
+  height: var(--water-mark-height);
+  border-radius: 30px;
+  margin-left: 10%;
+}
+.water_mark2{
+  background: var(--water-marks);
+  width: 70%;
+  height: var(--water-mark-height);
+  border-radius: 0px 0px 20px 20px;
+  margin-left: 15%;
+}
+.inner_water_mark2{
+  background: var(--main-bg-color);
+  width: 30%;
+  height: var(--water-mark-height);
+  margin-left: 28%;
+  border-radius: 30px;
+}
+.water_mark3{
+  background: var(--water-marks);
+  width: 30%;
+  height: var(--water-mark-height);
+  border-radius: 0px 0px 20px 20px;
+  margin-left: 30%;
+}
+.water_mark4{
+  background: var(--water-marks);
+  width: 10%;
+  height: var(--water-mark-height);
+  border-radius: 20px;
+  margin-left: 15%;
+  float: left;
+}
+.water_mark5{
+  background: var(--water-marks);
+  width: 15%;
+  height: var(--water-mark-height);
+  border-radius: 20px;
+  margin-left: 65%;
+}
+.water_mark6{
+  background: var(--water-marks);
+  width: 12%;
+  height: var(--water-mark-height);
+  border-radius: 20px;
+  margin-left: 32%;
+  float: left;
+}
+.water_mark7{
+  background: var(--water-marks);
+  width: 4%;
+  height: var(--water-mark-height);
+  border-radius: 20px;
+  margin-left: 3%;
+  float: left;
+}
+.water_mark8{
+  background: var(--water-marks);
+  width: 4%;
+  height: var(--water-mark-height);
+  border-radius: 20px;
+  margin-left: 3%;
+  float: left;
+}
