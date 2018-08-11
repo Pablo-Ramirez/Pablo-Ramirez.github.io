@@ -7,12 +7,78 @@
   --water-marks: #20c6e0;
   --grass: #019675;
   --water-mark-height: 30px;
+  --trunk-branch-color: #49311C;
+  --trunk-branch-width: .5%;
+  --white-dot-width:  11%;
+  --white-dot-color: #fff;
 }
 body{
   margin: 0;
   padding: 0;
   background: var(--main-bg-color);
 }
+.left_leaves1{
+  background: var(--grass);
+  width: 10%;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 9.1%;
+}
+.left_leaves1{
+  background: var(--grass);
+  width: 10%;
+  height: 130px;
+  border-radius: 100%;
+  margin-left: 9.1%;
+}
+.left_white_dot1{
+  background: var(--white-dot-color);
+  width: var(--white-dot-width);
+  height: 15px;
+  border-radius: 100%;
+  position: relative;
+  left: 35%;
+  top: 15%;
+}
+.left_white_dot2{
+  background: var(--white-dot-color);
+  width: var(--white-dot-width);
+  height: 15px;
+  border-radius: 100%;
+  position: relative;
+  left: 65%;
+  top: 25%;
+}
+.left_white_dot3{
+  background: var(--white-dot-color);
+  width: var(--white-dot-width);
+  height: 15px;
+  border-radius: 100%;
+  position: relative;
+  left: 15%;
+  top: 25%;
+}
+.left_white_dot4{
+  background: var(--white-dot-color);
+  width: var(--white-dot-width);
+  height: 15px;
+  border-radius: 100%;
+  position: relative;
+  left: 45%;
+  top: 35%;
+}
+.left_trunk1{
+  background: var(--trunk-branch-color);
+  width: var(--trunk-branch-width);
+  height: 100px;
+  margin-left: 14%;
+}
+/* .left_trunk2{
+  background: var(--trunk-branch-color);
+  width: var(--trunk-branch-width);
+  height: 50px;
+  position: relative;
+} */
 .ground{
   background: var(--grass);
   width: 79%;
