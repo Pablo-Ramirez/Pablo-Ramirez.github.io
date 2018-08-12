@@ -8,6 +8,7 @@
   --ear: #f2a088;
   --mouth-color: #f39f87;
   --cloud-color: #87d8db;
+  --cloud-height: 30px;
   --eyebrow-width: 36px;
   --eyebrow-height: 14px;
   --eye-width: 15px;
@@ -29,8 +30,8 @@ body{
   margin: 0;
 }
 .man{
-  margin-left: 20%;
-  margin-top: 10%;
+  max-width: 600px;
+  margin: auto;
 }
 .hair{
   background-color: var(--hair);
