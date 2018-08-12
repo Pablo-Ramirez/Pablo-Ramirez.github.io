@@ -1,0 +1,90 @@
+:root{
+  --background-color: #6ccacc;
+  --hair: #756969;
+  --skin-color: #f2c5a4;
+  --eye-color: #744243;
+  --nose-color: #f2a088;
+  --inner-ear: #de7659;
+  --ear: #f2a088;
+  --mouth-color: #f39f87;
+  --cloud-color: #87d8db;
+  --eyebrow-width: 36px;
+  --eyebrow-height: 14px;
+  --eye-width: 15px;
+  --eye-height: 15px;
+}
+body{
+  background-color: var(--background-color);
+  padding: 0;
+  margin: 0;
+}
+.hair{
+  background-color: var(--hair);
+  width: 252px;
+  height: 80px;
+  border-radius: 0px 70px 0px 70px;
+}
+.face{
+  background-color: var(--skin-color);
+  width: 180px;
+  height: 89px;
+  margin-left: 72px;
+}
+.eyebrow_1{
+  background-color: var(--hair);
+  width: var(--eyebrow-width);
+  height: var(--eyebrow-height);
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 26px;
+  margin-top: 34px
+}
+.eyebrow_2{
+  background-color: var(--hair);
+  width: var(--eyebrow-width);
+  height: var(--eyebrow-height);
+  border-radius: 20px;
+  position: absolute;
+  margin-left: 55px;
+  margin-top: 34px;
+  transform: rotate(25deg);
+}
+.eye_1{
+  background-color: var(--eye-color);
+  width: var(--eye-width);
+  height: var(--eye-height);
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 37px;
+  margin-top: 5px;
+}
+.eye_2{
+  background-color: var(--eye-color);
+  width: var(--eye-width);
+  height: var(--eye-height);
+  border-radius: 100%;
+  position: absolute;
+  margin-left: 76px;
+  margin-top: 5px;
+}
+.nose{
+  background-color: var(--nose-color);
+}
+.beard{
+  background-color: var(--hair);
+}
+.mouth{
+  background-color: var(--mouth-color);
+}
+.ear_1{
+  background-color: var(--ear);
+}
+.inner_ear_1{
+  background-color: var(--inner-ear);
+}
+.ear_2{
+  background-color: var(--ear);
+}
+.inner_ear_2{
+  background-color: var(--inner-ear);
+}
