@@ -1,0 +1,118 @@
+:root{
+  --white-triangles: #fff;
+  --main-background-color: #3076bb;
+  --burger-bun-color: #fcb84e;
+  --seeds: #fff;
+  --lettuce: #00b387;
+  --meat: #40403d;
+  --sauce: #ef505e;
+  --top-bun-height: 148px;
+  --top-bun-width:  405px;
+  --bottom-bun-width: 404px;
+  --bottom-bun-height: 80px;
+  --seeds-height: 13px;
+  --seeds-width: 26px;
+  --meat-width: 404px;
+  --meat-height: 62px;
+  --cheese-color: yellow;
+  --cheese-width: 350px;
+  --cheese-height: 10px;
+
+}
+body{
+  padding: 0;
+  margin: 0;
+  background-color: var(--main-background-color);
+}
+.white_triangle1{
+  background-color: var(--white-triangles):
+}
+.top_bun{
+  background-color: var(--burger-bun-color);
+  width: var(--top-bun-width);
+  height: var(--top-bun-height);
+  border-radius: 500px 500px 200px 200px;
+}
+.seed_1{
+  background-color: var(--seeds);
+  width: var(--seeds-width);
+  height: var(--seeds-height);
+  border-radius: 50px;
+  position: relative;
+  left: 100px;
+  top: 35px;
+}
+.seed_2{
+  background-color: var(--seeds);
+  width: var(--seeds-width);
+  height: var(--seeds-height);
+  border-radius: 50px;
+  position: relative;
+  top: 20px;
+  left: 238px;
+}
+.seed_3{
+  background-color: var(--seeds);
+  width: var(--seeds-width);
+  height: var(--seeds-height);
+  border-radius: 50px;
+  position: relative;
+  left: 57px;
+  top: 39px;
+}
+.seed_4{
+  background-color: var(--seeds);
+  width: var(--seeds-width);
+  height: var(--seeds-height);
+  border-radius: 50px;
+  position: relative;
+  left: 186px;
+  top: 19px;
+}
+.seed_5{
+  background-color: var(--seeds);
+  width: var(--seeds-width);
+  height: var(--seeds-height);
+  border-radius: 50px;
+  position: relative;
+  left: 328px;
+  top: 3px;
+}
+.seed_6{
+  background-color: var(--seeds);
+  width: var(--seeds-width);
+  height: var(--seeds-height);
+  border-radius: 50px;
+  position: relative;
+  left: 113px;
+  top: 32px;
+}
+.seed_7{
+  background-color: var(--seeds);
+  width: var(--seeds-width);
+  height: var(--seeds-height);
+  border-radius: 50px;
+  position: relative;
+  left: 259px;
+  top: 25px;
+}
+.meat{
+  background-color: var(--meat);
+  width: var(--meat-width);
+  height: var(--meat-height);
+  border-radius: 50px;;
+}
+.cheese{
+  background-color: var(--cheese-color);
+  width: var(--cheese-width);
+  height: var(--cheese-height);
+  position: relative;
+  left: 25px;
+}
+.bottom_bun{
+  background-color: var(--burger-bun-color);
+  width: var(--bottom-bun-width);
+  height: var(--bottom-bun-height);
+  border-radius: 50px;
+
+}
