@@ -15,14 +15,16 @@
   --meat-width: 404px;
   --meat-height: 62px;
   --cheese-color: yellow;
-  --cheese-width: 350px;
-  --cheese-height: 10px;
+  --pickle-color: green;
+  --pickle-width: 155px;
+  --pickle-height: 10px;
 
 }
 body{
-  padding: 0;
-  margin: 0;
   background-color: var(--main-background-color);
+}
+.burger{
+  zoom: 216%;
 }
 .white_triangle1{
   background-color: var(--white-triangles):
@@ -102,12 +104,32 @@ body{
   height: var(--meat-height);
   border-radius: 50px;;
 }
-.cheese{
-  background-color: var(--cheese-color);
-  width: var(--cheese-width);
-  height: var(--cheese-height);
+.pickle{
+  background-color: var(--pickle-color);
+  width: var(--pickle-width);
+  height: var(--pickle-height);
   position: relative;
   left: 25px;
+  float: left;
+  border-radius: 100px;
+}
+.pickle2{
+  background-color: var(--pickle-color);
+  width: var(--pickle-width);
+  height: var(--pickle-height);
+  position: relative;
+  left: 200px;
+  border-radius: 100px;
+}
+.yellow_triangle{
+  width: 0;
+  height: 0;
+  border-left: 80px solid transparent;
+  border-right: 90px solid transparent;
+  border-top: 62px solid var(--cheese-color);
+  float: left;
+  position: relative;
+  left: 32px;
 }
 .bottom_bun{
   background-color: var(--burger-bun-color);

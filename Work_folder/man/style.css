@@ -26,12 +26,10 @@
 }
 body{
   background-color: var(--background-color);
-  padding: 0;
-  margin: 0;
 }
 .man{
-  max-width: 600px;
-  margin: auto;
+  zoom: 200%;
+
 }
 .hair{
   background-color: var(--hair);
