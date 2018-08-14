@@ -2,6 +2,7 @@ body {
   margin: 0;
   padding: 0;
   background: rgba(128,128,128,.4);
+  font-family: allan;
 }
 
 ul.sidenav {
