@@ -3,6 +3,9 @@ body{
   width: 1920px;
   height: 1080px;
 }
+.whole_project{
+  zoom: 69%;
+}
 .sun_object_in_the_sky{
   background: #81938b;
   width: 320px;
@@ -140,9 +143,9 @@ body{
   border-style: solid;
   border-width: 90px 0 90px 190px;
   border-color: #ffffff transparent transparent transparent;
-  position:absolute;
-  right:792px;
-  top:600px;
+  position:relative;
+  left: 55%;
+  top: 200px
 }
 .nose_of_batman{
   width: 0;
