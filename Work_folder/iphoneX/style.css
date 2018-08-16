@@ -1,0 +1,223 @@
+*{
+  max-width: 800px;
+  margin: auto;
+}
+#vibrate{
+  background: grey;
+  width: 6px;
+  height: 20px;
+  border-radius: 10px;
+  position: relative;
+  left:-131px;
+  top: 90px;
+}
+#volume_up{
+  background: grey;
+  width: 6px;
+  height: 30px;
+  border-radius: 10px;
+  position: relative;
+  left: -131px;
+  top: 110px;
+}
+/* .volume_up{
+  position: absolute;
+  left: 625px;
+  top: 200px;
+  z-index: 3;
+  width: 100px;
+  background: silver;
+  border-radius: 20px;
+}
+ */
+#volume_down{
+  background: grey;
+  width: 6px;
+  height: 30px;
+  border-radius: 10px;
+  position: relative;
+  left:-131px;
+  top: 115px;
+}
+#power_button{
+  background: grey;
+  width: 6px;
+  height: 50px;
+  border-radius: 10px;
+  position: relative;
+  left:132px;
+  top: 50px;
+}
+.iphone_x{
+  width: 250px;
+  height: 500px;
+  background: #000;
+  border-radius: 25px;
+  border: 6px solid grey;
+  position: relative;
+  top: -120px;
+  overflow: hidden;
+}
+
+.iphone_top_part{
+  width: 125px;
+  height: 30px;
+  background: #000;
+  position: relative;
+  top: -9px;
+  border-radius: 10px;
+  z-index: 2;
+
+}
+.front_speaker{
+  width: 50px;
+  position: relative;
+  top: 18px;
+  left: -10px;
+  border-radius: 10px;
+  border: 2px solid #242424;
+}
+.front_camera{
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  top: 11px;
+  left: 40px;
+  background: #2e2e2e;
+  opacity: .5;
+}
+.blue_layer{
+  width: 5px;
+  height: 5px;
+  background: #0246d6;
+  border-radius: 100%;
+  position: relative;
+  top: .5px;
+  border: 1.9px solid #000;
+  opacity: .2;
+}
+.screen_layer{
+  width: 240px;
+  height: 490px;
+  border-radius: 20px;
+  position: relative;
+  top: -25px;
+  background: grey;
+  opacity: 1;
+}
+#home_page{
+  width: 240px;
+  height: 490px;
+  border-radius: 20px;
+  position: relative;
+}
+#screen_background{
+  width: 240px;
+  height: 590px;
+  border-radius: 20px;
+  position: relative;
+  top: -515px;
+  left: 5px;
+}
+.turn_off{
+  display: none;
+}
+.unlock{
+  display: none;
+}
+.fa-lock{
+  font-size: 30px;
+  position: relative;
+  top: -970px;
+  left: 115px;
+  color: white;
+}
+#time{
+  font-size: 30px;
+  font-style: bold;
+  font-family: Courier New;
+  color: white;
+  position: relative;
+  top: -960px;
+  left: 70px;
+}
+#date{
+  font-size: 23px;
+  font-family: Courier New;
+  color: white;
+  position: relative;
+  top: -950px;
+  left: 75px;
+}
+.flashlight_logo{
+  width: 29px;
+  height: 30px;
+  background: silver;
+  border-radius: 100%;
+  position: relative;
+  top: -660px;
+  left: -70px
+}
+.fa-lightbulb{
+  font-size: 15px;
+  position: relative;
+  padding: 8.5px;
+  border-radius: 100%;
+}
+.fa-lightbulb:hover{
+  background: #000;
+  color: white;
+}
+.camera_logo{
+  width: 30px;
+  height: 30px;
+  background: silver;
+  border-radius: 100%;
+  position: relative;
+  top: -690px;
+  left: 73px;
+}
+.fa-camera{
+  position: relative;
+  padding: 7px;
+  border-radius:100%;
+}
+.fa-camera:hover{
+  color: white;
+  background: #000;
+}
+.white_bar_on_the_bottom{
+  width: 100px;
+  border:3px solid white;
+  position: relative;
+  top: -680px;
+  left: 3px;
+  border-radius: 10px;
+}
+.white_bar_on_the_bottom:hover{
+  border: 3px solid black;
+}
+/* .reset_page{
+  text-align: center;
+  margin-left: 310px;
+  font-size: 30px;
+  background: #000;
+  color: white;
+  position: relative;
+  top: -120px
+} */
+.video{
+  width: 240px;
+  position: absolute;
+  top: 200px;
+  left: 547px;
+}
+.background_video{
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Pablo-Ramirez-IphoneX</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet"
+  href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+  integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+  crossorigin="anonymous">
+  <script src="index.js"></script>
+</head>
+<body>
+  <video class="background_video"  loop="loop" autoplay src="https://images.apple.com/media/us/iphone-x/2017/01df5b43-28e4-4848-bf20-490c34a926a7/overview/primary/hero/large_2x.mp4"></video>
+<div class="buttons">
+  <div class="left_buttons">
+    <div type="button" id="vibrate" onclick="vibrateOn()"></div>
+    <div type="button" id="volume_up" onclick="volumeUp()"></div>
+<!--       <img class="volume_up volume_up_hide" src="https://cdn0.iconfinder.com/data/icons/ios7-essence/22/loud_speaker_volume_up-512.png" alt=""> -->
+    <div type="button" id="volume_down" onclick="volumeDown()"></div>
+  </div>
+  <div class="right_button">
+    <div type="button" id="power_button" onclick="powerOnOff()" onclick="screenOpen()"></div>
+  </div>
+</div>
+<div class="iphone_x">
+  <div class="iphone_top_part">
+    <div class="front_speaker"></div>
+    <div class="front_camera">
+      <div class="blue_layer"></div>
+    </div>
+  </div>
+  <div class="screen_layer">
+    <img id="home_page" src="https://forums.macrumors.com/attachments/733157/" alt="">
+  </div>
+  <div id="screen" class="">
+    <img id="screen_background" style="height: 490px; " src="https://img00.deviantart.net/10be/i/2016/132/c/4/instagram_gradient_wallpaper_by_jasonzigrino-da28exh.png" alt="">
+    <div class="unlock_logo">
+      <i class="fas fa-lock"></i>
+    </div>
+    <div id="time"><strong></strong></div>
+    <div id="date"> </div>
+    <div class="flashlight_logo">
+      <i class="far fa-lightbulb" onclick="flashlightOn()"></i>
+    </div>
+    <div class="camera_logo">
+      <i class="fas fa-camera" onclick="cameraOpen()"></i>
+    </div>
+    <div class="white_bar_on_the_bottom" onclick="screenOpen()"></div>
+  </div>
+</div>
+<!-- <button class="reset_page" onclick="location.href=location.href">Reset Page</button>
+ -->
+<video autoplay class="video"></video>
+
+</body>
+</html>
