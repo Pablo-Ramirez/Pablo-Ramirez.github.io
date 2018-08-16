@@ -4,7 +4,6 @@ body {
   background: rgba(128,128,128,.4);
   font-family: allan;
 }
-
 ul.sidenav {
   list-style-type: none;
   margin: 0;
@@ -31,7 +30,6 @@ ul.sidenav li a:hover {
   color: white;
   transition: .5s;
 }
-
 div.content {
   margin-left: 25%;
   padding: 1px 0px;
@@ -253,6 +251,10 @@ footer{
   background-image: url(images/burger.jpg);
   margin-top: 30px;
 }
+.iphoneX{
+  background-image: url(images/iphoneX.jpg);
+  margin-top: 30px;
+}
 .contact{
   display: none;
 }
@@ -417,5 +419,8 @@ footer{
   .footer-icons{
     width: 100px;
     opacity: 1;
+  }
+  .iphoneX{
+    font-size: 35px;
   }
 }
