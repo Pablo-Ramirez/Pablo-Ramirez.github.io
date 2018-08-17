@@ -255,6 +255,11 @@ footer{
   background-image: url(images/iphoneX.jpg);
   margin-top: 30px;
 }
+.mario{
+  background-image: url(images/mario.jpg);
+  margin-top: 30px;
+  background-position: center;
+}
 .contact{
   display: none;
 }
