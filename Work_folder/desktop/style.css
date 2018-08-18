@@ -35,9 +35,6 @@ body{
   background-color: var(--main-background-color);
   zoom: 250%;
 }
-.red{
-  background-color: red;
-}
 .outer_screen_part{
   background-color: var(--main-desktop-color);
   width: var(--outer-screen-width);
@@ -100,8 +97,7 @@ body{
   top: 27px;
   left: 12px;
 }
-#power_on_off{
-  background-color: green;
+#power-on-off{
   width: var(--power-button-width);
   height: var(--power-button-height);
   border-radius: 100%;
@@ -112,4 +108,10 @@ body{
 }
 .off-on{
   display: none;
+}
+.red{
+  background-color: red;
+}
+.green{
+  background-color: green;
 }
