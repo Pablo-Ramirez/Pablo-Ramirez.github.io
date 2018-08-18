@@ -219,46 +219,51 @@ footer{
 }
 .cake{
   background-image: url(images/cake.png);
+  margin-bottom: 30px;
 }
 .hearts{
   background-image: url(images/Hearts.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .guessing_game{
   background-image: url(images/number_game.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .iphone{
   background-image: url(images/iphone.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
   background-position: top;
   color: black;
 }
 .batman{
   background-image: url(images/batman.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .landscape{
   background-image: url(images/landscape.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
   color: black;
 }
 .man{
   background-image: url(images/man.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .burger{
   background-image: url(images/burger.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .iphoneX{
   background-image: url(images/iphoneX.jpg);
-  margin-top: 30px;
+  margin-bottom: 30px;
 }
 .mario{
   background-image: url(images/mario.jpg);
-  margin-top: 30px;
-  background-position: center;
+  margin-bottom: 30px;
+}
+.desktop{
+  background-image: url(images/desktop.jpg);
+  margin-bottom: 30px;
+  color: #000;
 }
 .contact{
   display: none;
