@@ -1,12 +1,20 @@
 function onOff(){
   turnScreenOffOn();
-  changeButtonMode();
 }
 function turnScreenOffOn(){
   var el = document.getElementById('video');
+  var button = document.getElementById('power-on-off');
   el.classList.toggle('off-on');
-}
-function changeButtonMode(){
-  var button = document.getElementById('power_on_off');
-  button.classList.toggle('red');
+  if(el.classList.contains('off-on')){
+    button.classList.remove('green')
+    button.classList.add('red')
+    el.muted = true;
+    el.pause()
+  }
+  else{
+    button.classList.remove('red');
+    button.classList.add('green');
+    el.muted = false;
+    el.play();
+  }
 }
