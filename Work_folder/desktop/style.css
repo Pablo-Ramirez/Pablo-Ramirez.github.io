@@ -1,0 +1,115 @@
+:root{
+  /* Colors */
+  --main-background-color: #003399;
+  --main-desktop-color: #fff;
+  --neck-color: #b3b3b3;
+  --neck-shade-color: #999999;
+  --disk-main-color: #cccccc;
+  --disk-shade-color: #b3b3b3;
+  --power-button-border-color: #e6e6e6;
+  --power-button-main-color: green;
+  --on-mode: green;
+  /* item sizes */
+  --outer-screen-width: 313px;
+  --outer-screen-height: 198px;
+  --screen-width: 294px;
+  --screen-height: 154px;
+  --neck-width: 55px;
+  --neck-height: 26px;
+  --neck-shade-width: 55px;
+  --neck-shade-height: 9px;
+  --base-width: 136px;
+  --base-height: 18px;
+  --computer-width: 95px;
+  --computer-height: 242px;
+  --disk-width: 67px;
+  --disk-height: 18px;
+  --power-button-width: 21px;
+  --power-button-height: 21px;
+  --border-radius: 10px;
+  --other-bdrs: 3px;
+}
+body{
+  margin: 0;
+  padding: 0;
+  background-color: var(--main-background-color);
+  zoom: 250%;
+}
+.red{
+  background-color: red;
+}
+.outer_screen_part{
+  background-color: var(--main-desktop-color);
+  width: var(--outer-screen-width);
+  height: var(--outer-screen-height);
+  border-radius: var(--border-radius);
+}
+.screen{
+  width: var(--screen-width);
+  height: var(--screen-height);
+  border-radius: var(--border-radius);
+  background: #000;
+  position: relative;
+  top: 10px;
+  left: 8px;
+  overflow: hidden;
+}
+.neck_of_monitor{
+  background-color: var(--neck-color);
+  width: var(--neck-width);
+  height: var(--neck-height);
+  position: relative;
+  left: 129px;
+}
+.top_shade_on_neck{
+  background-color: var(--neck-shade-color);
+  width: var(--neck-shade-width);
+  height: var(--neck-shade-height);
+}
+.base_of_monitor{
+  background-color: var(--main-desktop-color);
+  width: var(--base-width);
+  height: var(--base-height);
+  border-radius: var(--border-radius);
+  position: relative;
+  left: 88px;
+}
+.computer{
+  background-color: var(--main-desktop-color);
+  width: var(--computer-width);
+  height: var(--computer-height);
+  border-radius: var(--border-radius);
+  position: relative;
+  left:383px;
+  top: -242px;
+}
+.disks{
+  background-color: var(--disk-main-color);
+  width: var(--disk-width);
+  height: var(--disk-height);
+  border-radius: var(--other-bdrs);
+  box-shadow: 4px 4px var(--disk-shade-color);
+}
+.disk_entry_1{
+  position: relative;
+  top: 20px;
+  left: 12px;
+}
+.disk_entry_2{
+  position: relative;
+  top: 27px;
+  left: 12px;
+}
+#power_on_off{
+  background-color: green;
+  width: var(--power-button-width);
+  height: var(--power-button-height);
+  border-radius: 100%;
+  position: relative;
+  left: 35px;
+  top: 150px;
+  border: 3px solid var(--power-button-border-color);
+}
+.off-on{
+  display: none;
+}
