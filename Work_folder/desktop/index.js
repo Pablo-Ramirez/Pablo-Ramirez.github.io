@@ -18,3 +18,7 @@ function turnScreenOffOn(){
     el.play();
   }
 }
+
+function open(){
+  var open = document.getElementById 
+}

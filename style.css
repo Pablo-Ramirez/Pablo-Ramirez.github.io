@@ -97,14 +97,15 @@ div.content {
   margin: 5.1%;
 }
 .box_content{
-  width: 100%;
+  width: 48%;
   height: 450px;
   border-radius: 10px;
   text-align: center;
   line-height: 500px;
   background-position: center;
   background-size: cover;
-
+  float: left;
+  margin-left: 2%;
 }
 .contact_me{
   display: none;
