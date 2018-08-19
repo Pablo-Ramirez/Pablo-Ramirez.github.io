@@ -33,7 +33,7 @@ body{
   margin: 0;
   padding: 0;
   background-color: var(--main-background-color);
-  zoom: 250%;
+  zoom: 200%;
 }
 .outer_screen_part{
   background-color: var(--main-desktop-color);
