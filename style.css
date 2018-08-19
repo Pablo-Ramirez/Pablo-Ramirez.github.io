@@ -327,6 +327,15 @@ footer{
     float: none;
     margin-left: 0;
   }
+  .box_content{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 500px;
+    background-position: center;
+    background-size: cover;
+  }
   .contact_me{
     background:url(images/home_contact.jpg);
     background-repeat: no-repeat;
@@ -414,6 +423,15 @@ footer{
     width: 100%;
     float: none;
     margin-left: 0;
+  }
+  .box_content{
+    width: 100%;
+    height: 450px;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 500px;
+    background-position: center;
+    background-size: cover;
   }
   .languages_spoken{
     border: none;
