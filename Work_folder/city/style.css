@@ -1,3 +1,53 @@
 :root{
-
+  /* COLORS */
+  --sky-color: #ace5fc;
+  --grass-color: #8bd900;
+  --cloud-color: #ffffff;
+  --street-color: #b5b9bb;
+  --street-line-color: #ffffff;
+  --orange-truck-color: #f2841c;
+  --orange-truck-backlights: #ec2421;
+  --orange-truck-front-lights: #fae405;
+  --autos-wheel-color: #000000;
+  --autos-window-rim-color: #59585b;
+  --red-car-color: #ea2b25;
+  --red-car-window-color: #ffffff;
+  --red-car-front-lights: #fbe305;
+  /* Sizes */
+  --sky-width: 1180px;
+  --sky-height: 274px;
+  --top-grass-width: 1180px;
+  --top-grass-height: 73px;
+  --street-width: 1180px;
+  --street-height: 245px;
+  --bottom-grass-width: 1180px;
+  --bottom-grass-height: 72px;
+}
+body{
+  margin: 0 auto;
+  padding: 0;
+  border: 5px solid #000;
+  max-width: 1180px;
+}
+.sky{
+  background-color: var(--sky-color);
+  width: var(--sky-width);
+  height: var(--sky-height);
+}
+.top_grass{
+  background-color: var(--grass-color);
+  width: var(--top-grass-width);
+  height: var(--top-grass-height);
+}
+.road{
+  background-color: var(--street-color);
+  width: var(--street-width);
+  height: var(--street-height);
+  border-top: 10px solid var(--street-line-color);
+  border-bottom: 10px solid var(--street-line-color);
+}
+.bottom_grass{
+  background-color: var(--grass-color);
+  width: var(--bottom-grass-width);
+  height: var(--bottom-grass-height);
 }
