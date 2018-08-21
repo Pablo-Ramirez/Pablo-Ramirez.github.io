@@ -218,7 +218,7 @@ footer{
   text-decoration: none;
   color: white;
 }
-.landscape img{
+.work_page img{
   width: 400px;
   position: relative;
   top: 10%;
@@ -376,7 +376,7 @@ footer{
   .development_work{
     border: none;
   }
-  .landscape img{
+  .work_page img{
     width: 600px;
   }
   .guessing_game{
@@ -455,7 +455,7 @@ footer{
   .work_page h1{
     font-size: 20px;
   }
-  .landscape img{
+  .work_page img{
     width: 300px;
   }
   .guessing_game{
