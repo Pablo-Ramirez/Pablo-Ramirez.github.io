@@ -1,5 +1,3 @@
-:root{
-}
 #orange_truck{
   width: var(--orange-truck-width);
   height: var(--orange-truck-height);
@@ -9,6 +7,7 @@
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+
 @keyframes truck-drive {
   0%{
     position: relative;
@@ -32,6 +31,18 @@
   height: 20px;
   position: relative;
   top: 70px;
+  animation-name: bright-red;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes bright-red {
+  0%{
+    background-color: var(--orange-truck-backlights);
+  }
+  100%{
+    background-color: #ec2421;
+    box-shadow: 10px 10px 50px 30px #ec2421;
+  }
 }
 .truck_greylight{
   background-color: var(--autos-window-rim-color);
