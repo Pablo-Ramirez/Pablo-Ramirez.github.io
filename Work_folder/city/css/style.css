@@ -1,0 +1,131 @@
+:root{
+  /* COLORS */
+  --sky-color: #ace5fc;
+  --grass-color: #8bd900;
+  --cloud-color: #ffffff;
+  --street-color: #b5b9bb;
+  --street-line-color: #ffffff;
+  --orange-truck-color: #f2841c;
+  --orange-truck-backlights: #ec2421;
+  --orange-truck-front-lights: #fae405;
+  --autos-wheel-color: #000000;
+  --autos-window-rim-color: #59585b;
+  --red-car-color: #ea2b25;
+  --red-car-window-color: #ffffff;
+  --red-car-front-lights: #fbe305;
+  /* Sizes */
+  --sky-width: 1180px;
+  --sky-height: 274px;
+  --top-grass-width: 1180px;
+  --top-grass-height: 73px;
+  --street-width: 1180px;
+  --street-height: 245px;
+  --bottom-grass-width: 1180px;
+  --bottom-grass-height: 72px;
+  --street-line-width: 82px;
+  --street-line-height: 11px;
+  --orange-truck-width: 190px;
+  --orange-truck-height: 120px;
+  --red-car-width: 210px;
+  --red-car-height: 80px;
+  --pixle-width: 10px;
+  --pixle-height: 10px;
+}
+body{
+  margin: 0 auto;
+  padding: 0;
+  border: 5px solid #000;
+  max-width: 1180px;
+  zoom: 85%;
+}
+#city{
+  overflow: hidden;
+}
+.sky{
+  background-color: var(--sky-color);
+  width: var(--sky-width);
+  height: var(--sky-height);
+}
+.dotted_lines{
+  width: 1170px;
+  height: var(--street-line-height);
+}
+.dotted_lines{
+  margin-top: 22px;
+}
+.line1{
+  background-color: var(--street-line-color);
+  width: var(--street-line-width);
+  height: var(--street-line-height);
+  margin-left: 31px;
+  float: left;
+}
+.line2{
+  background-color: var(--street-line-color);
+  width: var(--street-line-width);
+  height: var(--street-line-height);
+  margin-left: 89px;
+  float: left;
+}
+.line3{
+  background-color: var(--street-line-color);
+  width: var(--street-line-width);
+  height: var(--street-line-height);
+  margin-left: 89px;
+  float: left;
+}
+.line4{
+  background-color: var(--street-line-color);
+  width: var(--street-line-width);
+  height: var(--street-line-height);
+  margin-left: 89px;
+  float: left;
+}
+.line5{
+  background-color: var(--street-line-color);
+  width: var(--street-line-width);
+  height: var(--street-line-height);
+  margin-left: 89px;
+  float: left;
+}
+.line6{
+  background-color: var(--street-line-color);
+  width: var(--street-line-width);
+  height: var(--street-line-height);
+  margin-left: 89px;
+  float: left;
+}
+.line7{
+  background-color: var(--street-line-color);
+  width: var(--street-line-width);
+  height: var(--street-line-height);
+  margin-left: 89px;
+  float: left;
+}
+.top_grass{
+  background-color: var(--grass-color);
+  width: var(--top-grass-width);
+  height: var(--top-grass-height);
+}
+.road{
+  background-color: var(--street-color);
+  width: var(--street-width);
+  height: var(--street-height);
+  border-top: 5px solid var(--street-line-color);
+  border-bottom: 5px solid var(--street-line-color);
+}
+.bottom_grass{
+  background-color: var(--grass-color);
+  width: var(--bottom-grass-width);
+  height: var(--bottom-grass-height);
+}
+@media screen and (max-width: 1023px) {
+  body{
+    zoom: 50%;
+  }
+}
+@media screen and (max-width: 768px) {
+  body{
+    zoom: 25%;
+  }
+}

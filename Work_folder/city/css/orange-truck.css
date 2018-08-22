@@ -1,55 +1,23 @@
 :root{
-  /* COLORS */
-  --sky-color: #ace5fc;
-  --grass-color: #8bd900;
-  --cloud-color: #ffffff;
-  --street-color: #b5b9bb;
-  --street-line-color: #ffffff;
-  --orange-truck-color: #f2841c;
-  --orange-truck-backlights: #ec2421;
-  --orange-truck-front-lights: #fae405;
-  --autos-wheel-color: #000000;
-  --autos-window-rim-color: #59585b;
-  --red-car-color: #ea2b25;
-  --red-car-window-color: #ffffff;
-  --red-car-front-lights: #fbe305;
-  /* Sizes */
-  --sky-width: 1180px;
-  --sky-height: 274px;
-  --top-grass-width: 1180px;
-  --top-grass-height: 73px;
-  --street-width: 1180px;
-  --street-height: 245px;
-  --bottom-grass-width: 1180px;
-  --bottom-grass-height: 72px;
-  --street-line-width: 82px;
-  --street-line-height: 11px;
-  --orange-truck-width: 200px;
-  --orange-truck-height: 120px;
-  --pixle-width: 10px;
-  --pixle-height: 10px;
 }
-body{
-  margin: 0 auto;
-  padding: 0;
-  border: 5px solid #000;
-  max-width: 1180px;
-  zoom: 85%;
-}
-.sky{
-  background-color: var(--sky-color);
-  width: var(--sky-width);
-  height: var(--sky-height);
-}
-.dotted_lines{
-  width: 1170px;
-  height: var(--street-line-height);
-}
-.orange_truck{
+#orange_truck{
   width: var(--orange-truck-width);
   height: var(--orange-truck-height);
   margin-top: -20px;
-  margin-left: 578px;
+  margin-left: -190px;
+  animation-name: truck-drive;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes truck-drive {
+  0%{
+    position: relative;
+    left: -190px
+  }
+  100%{
+    position: relative;
+    left: 1460px;
+  }
 }
 .orange_truck_piece_1{
   background-color: var(--orange-truck-color);
@@ -293,129 +261,4 @@ body{
   height: 10px;
   position: relative;
   top: 30px;
-}
-/* .green_pixle{
-  background-color: var(--grass-color);
-  width: var(--pixle-width);
-  height: var(--pixle-height);
-  float: left;
-}
-.orange_truck_piece1{
-  background-color: var(--orange-truck-color);
-  width: 10px;
-  height: 110px;
-  float: left;
-  position: relative;
-  left: 140px;
-  top: 10px;
-}
-.window_piece1{
-  background-color: var(--autos-window-rim-color);
-  width: 20px;
-  height: 50px;
-  position: relative;
-  top: 10px;
-  left: 120px;
-
-}
-.window_piece2{
-  background-color: var(--autos-window-rim-color);
-  width: 10px;
-  height: 40px;
-  position: relative;
-  top: -40px;
-  left: 140px;
-}
-.window_piece3{
-  background-color: var(--autos-window-rim-color);
-  width: 10px;
-  height: 30px;
-  position: relative;
-  top: -70px;
-  left: 150px;
-}
-.window_piece4{
-  background-color: var(--autos-window-rim-color);
-  width: 10px;
-  height: 20px;
-  position: relative;
-  top: -90px;
-  left: 160px;
-}
-.window_piece5{
-  background-color: var(--autos-window-rim-color);
-  width: 10px;
-  height: 10px;
-  position: relative;
-  top: -100px;
-  left: 170px;
-} */
-.dotted_lines{
-  margin-top: 12px;
-}
-.line1{
-  background-color: var(--street-line-color);
-  width: var(--street-line-width);
-  height: var(--street-line-height);
-  margin-left: 31px;
-  float: left;
-}
-.line2{
-  background-color: var(--street-line-color);
-  width: var(--street-line-width);
-  height: var(--street-line-height);
-  margin-left: 89px;
-  float: left;
-}
-.line3{
-  background-color: var(--street-line-color);
-  width: var(--street-line-width);
-  height: var(--street-line-height);
-  margin-left: 89px;
-  float: left;
-}
-.line4{
-  background-color: var(--street-line-color);
-  width: var(--street-line-width);
-  height: var(--street-line-height);
-  margin-left: 89px;
-  float: left;
-}
-.line5{
-  background-color: var(--street-line-color);
-  width: var(--street-line-width);
-  height: var(--street-line-height);
-  margin-left: 89px;
-  float: left;
-}
-.line6{
-  background-color: var(--street-line-color);
-  width: var(--street-line-width);
-  height: var(--street-line-height);
-  margin-left: 89px;
-  float: left;
-}
-.line7{
-  background-color: var(--street-line-color);
-  width: var(--street-line-width);
-  height: var(--street-line-height);
-  margin-left: 89px;
-  float: left;
-}
-.top_grass{
-  background-color: var(--grass-color);
-  width: var(--top-grass-width);
-  height: var(--top-grass-height);
-}
-.road{
-  background-color: var(--street-color);
-  width: var(--street-width);
-  height: var(--street-height);
-  border-top: 5px solid var(--street-line-color);
-  border-bottom: 5px solid var(--street-line-color);
-}
-.bottom_grass{
-  background-color: var(--grass-color);
-  width: var(--bottom-grass-width);
-  height: var(--bottom-grass-height);
 }

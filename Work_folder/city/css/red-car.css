@@ -1,0 +1,160 @@
+.red_car{
+  width: var(--red-car-width);
+  height: var(--red-car-height);
+  position: relative;
+  top: 12px;
+  left: 1280px;
+  animation-name: car-drive;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes car-drive {
+  0%{
+    position: relative;
+    left: 1280px;
+  }
+  100%{
+    left: -300px
+  }
+}
+.red_car_yellowlight{
+  background-color: var(--red-car-front-lights);
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 50px;
+}
+.red_car_greylight{
+  background-color: var(--autos-window-rim-color);
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 50px;
+  float: left;
+}
+.red_car_piece1{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 30px;
+  position: relative;
+  top: 30px;
+  float: left;
+}
+.red_car_piece2{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  float: left;
+}
+.red_car_wheel_piece1{
+  background-color: var(--autos-wheel-color);
+  width: 10px;
+  height: 20px;
+  position: relative;
+  top: 20px;
+}
+.red_car_piece3{
+  background-color: var(--red-car-color);
+  width: 20px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  float: left;
+}
+.red_car_wheel_piece2{
+  background-color: var(--autos-wheel-color);
+  width: 20px;
+  height: 10px;
+  position: relative;
+  top: 10px;
+}
+.red_car_rim{
+  background-color: var(--autos-window-rim-color);
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 10px;
+}
+.red_car_wheel_piece3{
+  background-color: var(--autos-wheel-color);
+  width: 20px;
+  height: 10px;
+  position: relative;
+  top: 10px;
+}
+.red_car_piece4{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  float: left;
+}
+.red_car_wheel_piece4{
+  background-color: var(--autos-wheel-color);
+  width: 10px;
+  height: 20px;
+  position: relative;
+  top: 20px;
+}
+.red_car_piece5{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 40px;
+  position: relative;
+  top: 20px;
+  float: left;
+}
+.red_car_piece6{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 50px;
+  position: relative;
+  top: 10px;
+  float: left;
+}
+.red_car_piece7{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 60px;
+  float: left;
+}
+.red_car_window_piece1{
+  background-color: var(--red-car-window-color);
+  width: 10px;
+  height: 10px;
+  position: relative;
+  top: 10px;
+}
+.red_car_piece8{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 70px;
+  position: relative;
+  top: -10px;
+  float: left;
+}
+.red_car_window_piece2{
+  background-color: var(--red-car-window-color);
+  width: 10px;
+  height: 20px;
+  position: relative;
+  top: 10px;
+}
+.red_car_piece9{
+  background-color: var(--red-car-color);
+  width: 10px;
+  height: 70px;
+  position: relative;
+  top: -10px;
+  float: left;
+}
+.red_car_window_piece3{
+  background-color: var(--red-car-window-color);
+  width: 10px;
+  height: 20px;
+  position: relative;
+  top: 10px;
+}
