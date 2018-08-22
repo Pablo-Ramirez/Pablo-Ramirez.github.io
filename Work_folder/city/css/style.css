@@ -6,13 +6,13 @@
   --street-color: #b5b9bb;
   --street-line-color: #ffffff;
   --orange-truck-color: #f2841c;
-  --orange-truck-backlights: #ec2421;
+  --orange-truck-backlights: rgba(93, 14, 13, .5);
   --orange-truck-front-lights: #fae405;
   --autos-wheel-color: #000000;
   --autos-window-rim-color: #59585b;
   --red-car-color: #ea2b25;
   --red-car-window-color: #ffffff;
-  --red-car-front-lights: #fbe305;
+  --red-car-front-lights: rgba(98, 89, 2, 0.5);
   /* Sizes */
   --sky-width: 1180px;
   --sky-height: 274px;
@@ -121,11 +121,11 @@ body{
 }
 @media screen and (max-width: 1023px) {
   body{
-    zoom: 50%;
+    zoom: 60%;
   }
 }
 @media screen and (max-width: 768px) {
   body{
-    zoom: 25%;
+    zoom: 45%;
   }
 }

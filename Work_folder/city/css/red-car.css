@@ -23,6 +23,18 @@
   height: 10px;
   position: relative;
   top: 50px;
+  animation-name: bright-yellow;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes bright-yellow {
+  0%{
+    background-color: var(--red-car-front-lights);
+  }
+  100%{
+    background-color: #fbe305;
+    box-shadow: 10px 10px 50px 40px #fbe305;
+  }
 }
 .red_car_greylight{
   background-color: var(--autos-window-rim-color);
