@@ -3,11 +3,41 @@
   height: var(--orange-truck-height);
   margin-top: -20px;
   margin-left: -190px;
-  animation-name: truck-drive;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+  -webkit-animation: truck-drive 5s infinite;
+  -moz-animation:    truck-drive 5s infinite;
+  -o-animation:      truck-drive 5s infinite;
+  animation:         truck-drive 5s infinite;
 }
-
+@-webkit-keyframes truck-drive {
+  0%{
+    position: relative;
+    left: -190px
+  }
+  100%{
+    position: relative;
+    left: 1460px;
+  }
+}
+@-moz-keyframes truck-drive {
+  0%{
+    position: relative;
+    left: -190px
+  }
+  100%{
+    position: relative;
+    left: 1460px;
+  }
+}
+@-o-keyframes truck-drive {
+  0%{
+    position: relative;
+    left: -190px
+  }
+  100%{
+    position: relative;
+    left: 1460px;
+  }
+}
 @keyframes truck-drive {
   0%{
     position: relative;
