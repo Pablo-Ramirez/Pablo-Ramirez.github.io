@@ -106,6 +106,7 @@ div.content {
   background-size: cover;
   float: left;
   margin-left: 2%;
+  background-color: #000000;
 }
 .contact_me{
   display: none;
@@ -275,6 +276,13 @@ footer{
   background-image: url(images/city.jpg);
   margin-bottom: 30px;
   color: #000;
+}
+.pong{
+  background-image: url(images/pong.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 30px;
+  color: white;
 }
 .contact{
   display: none;
