@@ -246,11 +246,11 @@ footer{
   background-image: url(images/batman.jpg);
   margin-bottom: 30px;
 }
-.landscape{
+/* .landscape{
   background-image: url(images/landscape.jpg);
   margin-bottom: 30px;
   color: black;
-}
+} */
 .man{
   background-image: url(images/man.jpg);
   margin-bottom: 30px;
@@ -283,6 +283,10 @@ footer{
   background-repeat: no-repeat;
   margin-bottom: 30px;
   color: white;
+}
+.rick_morty{
+  background-image: url(images/rick-morty.jpg);
+  margin-bottom: 30px;
 }
 .contact{
   display: none;
