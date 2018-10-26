@@ -1,0 +1,219 @@
+.cloud1{
+  width: 194px;
+  height: 127px;
+  background-color: var(--cloud-color);
+  position: relative;
+  top: 96px;
+  animation-name: cloud1;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes cloud1 {
+  10%{
+    position: relative;
+    left: 10px;
+  }
+  20%{
+    left: 20px;
+  }
+  30%{
+    left: 30px;
+  }
+  40%{
+    left: 40px;
+  }
+  50%{
+    left: 50px;
+  }
+  60%{
+    right: 40px;
+  }
+  70%{
+    right: 30px;
+  }
+  80%{
+    right: 20px;
+  }
+  90%{
+    right: 10px;
+  }
+  100%{
+    left: 0px;
+  }
+}
+.cloud2{
+  width: 88px;
+  height: 59px;
+  position: relative;
+  top: -31px;
+  left: 316px;
+  background-color: var(--cloud-color);
+  animation-name: cloud2;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+}
+@keyframes cloud2 {
+  10%{
+    position: relative;
+    left: 326px;
+  }
+  20%{
+    left: 336px;
+  }
+  30%{
+    left: 346px;
+  }
+  40%{
+    left: 356px;
+  }
+  50%{
+    left: 366px;
+  }
+  60%{
+    right: 356px;
+  }
+  70%{
+    right: 346px;
+  }
+  80%{
+    right: 336px;
+  }
+  90%{
+    right: 326px;
+  }
+  100%{
+    left: 316px;
+  }
+}
+.cloud3{
+  width: 136px;
+  height: 107px;
+  position: relative;
+  top: -80px;
+  left: 506px;
+  background-color: var(--cloud-color);
+  animation-name: cloud3;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+}
+@keyframes cloud3 {
+  10%{
+    position: relative;
+    left: 516px;
+  }
+  20%{
+    left: 526px;
+  }
+  30%{
+    left: 536px;
+  }
+  40%{
+    left: 546px;
+  }
+  50%{
+    left: 556px;
+  }
+  60%{
+    right: 546px;
+  }
+  70%{
+    right: 536px;
+  }
+  80%{
+    right: 526px;
+  }
+  90%{
+    right: 516px;
+  }
+  100%{
+    left: 506px;
+  }
+}
+.cloud4{
+  width: 88px;
+  height: 59px;
+  position: relative;
+  top: -133px;
+  left: 853px;
+  background-color: var(--cloud-color);
+  animation-name: cloud4;
+  animation-duration: 8s;
+  animation-iteration-count: infinite;
+}
+@keyframes cloud4 {
+  10%{
+    position: relative;
+    left: 863px;
+  }
+  20%{
+    left: 873px;
+  }
+  30%{
+    left: 883px;
+  }
+  40%{
+    left: 893px;
+  }
+  50%{
+    left: 903px;
+  }
+  60%{
+    right: 893px;
+  }
+  70%{
+    right: 883px;
+  }
+  80%{
+    right: 873px;
+  }
+  90%{
+    right: 863px;
+  }
+  100%{
+    left: 853px;
+  }
+}
+.cloud5{
+  width: 194px;
+  height: 127px;
+  position: relative;
+  top: -255px;
+  left: 986px;
+  background-color: var(--cloud-color);
+  animation-name: cloud5;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+@keyframes cloud5 {
+  10%{
+    position: relative;
+    left: 996px;
+  }
+  20%{
+    left: 1006px;
+  }
+  30%{
+    left: 1016px;
+  }
+  40%{
+    left: 1026px;
+  }
+  50%{
+    left: 1036px;
+  }
+  60%{
+    right: 1026px;
+  }
+  70%{
+    right: 1016px;
+  }
+  80%{
+    right: 1006px;
+  }
+  90%{
+    right: 996px;
+  }
+  100%{
+    left: 986px;
+  }
+}
