@@ -1,3 +1,35 @@
 :root{
-  
+  --main-background-color: #182c47;
+  --bars-color: #081d3c;
+  --bars-width: 590px;
+  --bars-height: 26px;
+}
+
+body{
+  background-color: var(--main-background-color);
+}
+
+.rick_morty{
+  width: 800px;
+  height: 600px;
+  background-color: var(--main-background-color);
+  margin: 0 auto;
+}
+.bar{
+  z-index: 1;
+  width: var(--bars-width);
+  height: var(--bars-height);
+  background-color: var(--bars-color);
+  position: relative;
+  left: 105px;
+  top: 54px;
+  margin-bottom: 26px;
+}
+.morty{
+  width: 353px;
+  height: 390px;
+  z-index: 2;
+  position: relative;
+  top: -362px;
+  left: 37px;
 }
