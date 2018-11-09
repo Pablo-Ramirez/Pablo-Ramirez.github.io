@@ -3,6 +3,16 @@
   --bars-color: #081d3c;
   --bars-width: 590px;
   --bars-height: 26px;
+  --lightbrown-hair-color: #7b3801;
+  --darkbrown-hair-color: #542200;
+  --morty-main-skin-color: #f6c59c;
+  --morty-face-skin-color: #f27c62;
+  --morty-outer-ear-color: #f27c62;
+  --morty-inner-ear-color: #d14a46;
+  --morty-iris-color: #fbe8d7;
+  --morty-pupil-color: #582c11;
+  --mouth-color: #d4343e;
+  --tounge-color: #b20020;
 }
 
 body{
@@ -32,4 +42,64 @@ body{
   position: relative;
   top: -362px;
   left: 37px;
+}
+.morty-hair{
+  height: 131px;
+  width: 264px;
+}
+.lightbrown{
+  height: 131px;
+  width: 264px;
+}
+.lb-top-part{
+  width: 190px;
+  height: 46px;
+  background-color: var(--lightbrown-hair-color);
+  border-radius: 50px;
+  margin: 0 auto;
+}
+.lb-bottom-part{
+  width: 264px;
+  height: 124px;
+  background-color: var(--lightbrown-hair-color);
+  border-radius: 50px;
+  position: relative;
+  top: -33px;
+}
+.darkbrown{
+  width: 190px;
+  height: 120px;
+  margin: 0 auto;
+}
+.db-top-part{
+  width: 140px;
+  height: 20px;
+  background-color: var(--darkbrown-hair-color);
+  border-radius: 50px;
+  margin: 0 auto;
+  position: relative;
+  top: 15px;
+}
+.db-bottom-part{
+  width: 190px;
+  height: 80px;
+  background-color: var(--darkbrown-hair-color);
+  border-radius: 50px;
+  position: relative;
+  top: 3px;
+}
+.morty-full-top-part{
+  width: 270px;
+  height: 202px;
+  /* background: #fff; */
+  position: relative;
+  top: -85px;
+  z-index: 3;
+}
+.morty-head{
+  width: 202px;
+  height: 202px;
+  background-color: var(--morty-main-skin-color);
+  margin: 0 auto;
+  border-radius: 100%;
 }
